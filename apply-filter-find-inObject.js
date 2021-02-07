@@ -14,5 +14,9 @@ const student=[
 // }
 // console.log(array)
 
-const studentName=student.map(x=>x.name)
-console.log(studentName)
+// const studentName=student.map(x=>x.name)
+// console.log(studentName)
+const bigger=student.filter(s=>s.id>40)
+console.log(bigger);
+const ids=student.find(s=>s.id>40)
+console.log(ids)
